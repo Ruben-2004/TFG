@@ -62,7 +62,7 @@ Clase `RSA` que encapsula un par de claves RSA y expone:
 
 | Método | Descripción |
 |--------|-------------|
-| `RSA(bits)` | Genera un par de claves de `bits(1024–4096)` bits (1024–4096) |
+| `RSA(bits)` | Genera un par de claves de `(1024–4096)` bits |
 | `encrypt(plaintext)` | Cifrado OAEP-SHA256 con la clave pública |
 | `decrypt(ciphertext)` | Descifrado OAEP-SHA256 con la clave privada |
 | `sign(message)` | Firma PSS-SHA256 con la clave privada |
