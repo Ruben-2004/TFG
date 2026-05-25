@@ -123,7 +123,6 @@ def benchmark_ecc(curve: str, reps: int) -> dict:
     dec_times, _ = _timeit(lambda: elgamal_instance.decrypt(bundle), reps)
 
     ecdh_sizes    = ecdh_instance.key_sizes()
-    ecdsa_sizes   = ecdsa_instance.key_sizes()
 
     return {
         "sistema":       f"ECC-{curve}",
