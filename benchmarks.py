@@ -1,6 +1,4 @@
 """
-benchmarks.py
--------------
 Análisis comparativo de rendimiento entre RSA y ECC.
 
 Importa y utiliza directamente las clases definidas en:

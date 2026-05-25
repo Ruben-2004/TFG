@@ -1,6 +1,4 @@
 """
-rsa.py
-------
 Implementación del sistema criptográfico RSA.
 
 Incluye:

@@ -1,6 +1,4 @@
 """
-ecdsa.py
---------
 Implementación del algoritmo de firma digital sobre curvas elípticas
 (ECDSA - Elliptic Curve Digital Signature Algorithm).
 

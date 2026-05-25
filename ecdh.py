@@ -1,6 +1,4 @@
 """
-ecdh.py
--------
 Implementación del protocolo de intercambio de claves
 Diffie-Hellman sobre curvas elípticas (ECDH).
 

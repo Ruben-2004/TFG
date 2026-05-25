@@ -1,6 +1,4 @@
 """
-elgamal.py
-----------
 Implementación del esquema de cifrado ElGamal sobre curvas elípticas
 (EC-ElGamal).
 
@@ -16,7 +14,7 @@ Curvas soportadas: P-256, P-384, P-521.
 
 Uso:
     from elgamal import ECElGamal
-    bob = ECElGamal(curve="P-256")           # genera clave pública/privada
+    bob = ECElGamal(curve="P-256")
     ct  = bob.encrypt(b"mensaje", bob.public_key)
     pt  = bob.decrypt(ct)
 """
